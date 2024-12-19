@@ -1,21 +1,57 @@
-# YouTubeDownloader
-A simple tool to download YouTube video's. 
+# YouTube Video Downloader
 
-## Note
+A simple tool to easily download YouTube videos, allowing users to save their favorite content for offline viewing. It offers a fast and straightforward interface to download videos in various formats and resolutions.
 
-This project was made while following a tutorial by the youtuber: developedbyed. Feel free to check him out.
-All the credit's of the project and code belong to him.
+## Features
 
-## Libraries/Links
+- **Download videos**: Allows users to download videos from YouTube.
+- **Fast downloads**: Optimized for quick downloading.
 
-For the project used the libraries tkinter, customtkinter and pytube.
+## Installation
 
-Youtube Link: https://www.youtube.com/watch?v=NI9LXzo0UY0&t=202s
+### Prerequisites
 
-## Questions/Support
+Ensure you have **Python** and **pip** installed on your system.
 
-If you found any problems or bugs in this project, please send a pull request.
-If you want to support us, feel free to visit our website.
-(Link will be here soon.)
+### Steps to Install
 
-| + Devap + |
+1. Clone the repository:
+
+   `git clone https://github.com/your-username/youtube-video-downloader.git`
+
+2. Navigate to the project directory:
+
+   `cd youtube-video-downloader`
+
+3. Install dependencies:
+
+   `pip install -r requirements.txt`
+
+## Usage
+
+1. Run the application:
+
+   `python app.py`
+
+2. Enter the YouTube video URL when prompted.
+3. Choose the desired format and resolution for the download.
+4. The video will be saved to your local directory.
+
+## Development
+
+To contribute to the project:
+
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature-name`).
+3. Commit your changes (`git commit -am 'Add new feature'`).
+4. Push to the branch (`git push origin feature-name`).
+5. Open a pull request.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgments
+
+- **youtube-dl**: Library used to handle video downloads.
+- Inspiration from various YouTube downloader tools available online.
